@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Milena Stein</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WEBSITE DESCRIPTION GOES HERE" />
+
+    <!-- Import Font from Google-Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="LINK FOR ICON GOES HERE" sizes="SIZE GOES HERE" />
+
+    <script type="module" src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+
+      <!-- Navigation Bar -->
+      <nav>
+        <div class="nav-links" id="nav-links">
+          <a href="index.html" aria-current="page">home</a>
+          <a href="about.html">Was ist ILM?</a>
+          <a href="dance.html">Über Mich</a>
+          <a href="ilm.html">Angebote</a>
+          <a href="contact.html">Kontakt</a>
+        </div>
+
+        <button class="nav-toggle" id="nav-toggle">☰</button>
+      </nav>
+    </header>
+    
+    <!-- Primary content -->
+    <main>
+      <!-- Image/Video Slides -->
+      <div class="image-band">
+        <img src="https://i.imgur.com/QIO0duC.jpeg" class="image-slide active" alt="Image 1">
+        <img src="https://innereyecoach.com/wp-content/uploads/2024/07/2.jpg?w=1440" class="image-slide" alt="Image 2">
+        <img src="https://innereyecoach.com/wp-content/uploads/2024/08/5.jpg?w=1788" class="image-slide" alt="Image 3">
+      </div>
+
+      <!-- Brief Explanation of ILM -->
+      <div class="textbox">
+        Hier kommt eine Beschreibung hin, was du machst. Ein Text, der erklärt, worum es geht, warum es alles besser macht, warum es sehr gut bezahlt werden sollte usw.<br><br>
+
+        <span style="font-family: 'Nunito Sans', sans-serif; font-weight: 300">Nunito Sans: Ein Test um Schriften zu vergleichen. <b>Wie sieht das aus?</b></span><br><br>
+
+        <span style="font-family: 'DM Sans', sans-serif; font-weight: 300">DM Sans: Ein Test um Schriften zu vergleichen. <b>Wie sieht das aus?</b></span><br><br>
+
+        <span style="font-family: 'Montserrat', sans-serif; font-weight: 300">Montserrat: Ein Test um Schriften zu vergleichen. <b>Wie sieht das aus?</b></span>
+      </div>
+      
+      <!-- Testimonials -->
+      <div class="review-band">
+        <div class="review-title">
+          Erfahrungen
+        </div>
+        <div class="review-track">
+
+          <!-- Review 1 -->
+          <div class="review">
+            <div class="review-image">
+              <img src="https://i.imgur.com/UH5tHux.png" alt="Foto der Rezension"/>
+            </div>
+            <div class="review-textbox">
+              <div class="review-text">
+                Milena ist die Beste! Nach der Behandlung fühle ich mich wie neugebohren und kann so richtig loslegen!
+              </div>
+              <div class="review-name">
+                - Piet
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="review">
+            <div class="review-image">
+              <img src="https://i.imgur.com/sf4X7K4.png" alt="Foto der Rezension"/>
+            </div>
+            <div class="review-textbox">
+              <div class="review-text">
+                Nachdem man sich an die komischen Geräusche gewöhnt hat, ist es gar nicht mal so schlecht!
+              </div>
+              <div class="review-name">
+                - Pjetr
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="review">
+            <div class="review-image">
+              <img src="https://i.imgur.com/OXj45qz.png" alt="Foto der Rezension"/>
+            </div>
+            <div class="review-textbox">
+              <div class="review-text">
+                Mochte ich nicht. Mein Gesicht war total aufgedunsen. Ich glaube ich habe allergisch reagiert.
+              </div>
+              <div class="review-name">
+                - Polter
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Side Navigation Buttons -->
+        <button class="previous" aria-label="Previous review"></button>
+        <button class="next" aria-label="Next review"></button>
+
+        <!-- Dot Navigation Buttons -->
+        <div class="review-dots">
+          <button class="dot active"></button>
+          <button class="dot"></button>
+          <button class="dot"></button>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- Copyright Footer -->
+    <footer>
+      <p>&copy; Milena Stein 2026. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
