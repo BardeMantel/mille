@@ -40,6 +40,7 @@ if (slides.length > 1) {
 }
 
 // REVIEW TRACK
+const reviewband = document.querySelector(".review-band");
 const track = document.querySelector(".review-track");
 const reviews = [...document.querySelectorAll(".review")];
 
@@ -138,7 +139,7 @@ function previousReview() {
 }
 
 // Click anywhere on the review track to move forward
-track.addEventListener("click", (event) => {
+reviewband.addEventListener("click", (event) => {
 
   // Ignore clicks on navigation buttons
   if (event.target.closest(".previous, .next, .dot")) return;
